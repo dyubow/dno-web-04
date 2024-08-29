@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
+        <head>
         <meta charset="utf-8" />
         <title>📝 Machine Learning</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+        <link rel="stylesheet" href="style.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.min.js"></script>
         <script src="https://unpkg.com/ml5@0.20.0-alpha.4/dist/ml5.min.js"></script>
-        <link rel="stylesheet" href="style.css" />
+    
+
     </head>
     <body>
         <header>
@@ -41,13 +43,13 @@
             }
             function draw() {
                 //repita este background en el style.css
-                background("FFFAFB");
+                background("#FFFAFB");
                 textSize(48);
                 text("🌸", mouseX, mouseY);
             }
             function windowResized() {
                 //repita un mismo background en el style.css y en todos los script
-                background("FFFAFB");
+                background("#FFFAFB");
                 resizeCanvas(windowWidth, windowHeight);
             }
         </script>

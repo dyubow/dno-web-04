@@ -62,10 +62,10 @@
               let pointB = pose.keypoints[pointBIndex];
               // Only draw a line if both points are confident enough
               if (pointA.score > 0.1 && pointB.score > 0.1) {
-                stroke(255, 0, 0);
+                stroke(255);
                 strokeWeight(2);
                 line(pointA.x, pointA.y, pointB.x, pointB.y);
-                tint("blue") //queda con una lamina del color
+                tint("pink") //queda con una lamina del color
               }
             }
           }
